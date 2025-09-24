@@ -15,13 +15,7 @@ connectDB()
         
     })
 
-    app.get('/instagram',(req,res)=>{
-        res.send("oh welcome to instagram");
-    })
-
-    app.get('/',(req,res)=>{
-        res.send("welcome to home page");
-    })
+    
 })
 .catch((error)=>{
     console.log("mongodb conection failed.",error);
